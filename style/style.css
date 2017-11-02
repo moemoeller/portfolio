@@ -1,4 +1,7 @@
 body {
+    background: fixed;
     background-image: url("../pics/Background1.jpeg");
-    background-color: #cccccc;
+    background-repeat:no-repeat;
+    background-position: inherit;
+    background-size: cover;
 }
