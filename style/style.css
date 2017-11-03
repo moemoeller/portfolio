@@ -4,4 +4,28 @@ body {
     background-repeat:no-repeat;
     background-position: inherit;
     background-size: cover;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+.navbar {
+    background-color: ghostwhite;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav__item {
+    display: inline-block;
+}
+
+.nav__link {
+    display: block;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
 }
